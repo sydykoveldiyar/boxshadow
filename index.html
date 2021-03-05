@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box-Shadow</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;1,100&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./main.css">
+</head>
+<body>
+    <div class="title">
+        <h1>Box Shadow Generator</h1>
+    </div>
+    <section class="main">
+        <div class="inputs">
+            <label for="horizontal">Horizontal</label>
+            <input type="range" id="horizontal" min="-100" max="100" value="0">
+            <label for="vertical">Vertical</label>
+            <input type="range" id="vertical" min="-100" max="100" value="0">
+            <label for="blurSh">Blur</label>
+            <input type="range" id="blurSh" max="100" value="0">
+            <label for="spread">Spread</label>
+            <input type="range" id="spread" max="50" value="0"> 
+            <label for="color">Color</label>
+            <input type="color" id="color" value="#d31d1d">    
+        </div>
+        <div class="box">
+            <div class="sm-box">
+                <div class="shadow">-box-shadow: </div>
+            </div>
+        </div>
+    </section>
+    <script src="./script.js"></script>
+</body>
+</html>
