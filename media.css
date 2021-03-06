@@ -1,5 +1,5 @@
 @media(max-width: 1440px){
-
+    
 }
 
 @media(max-width: 992px){
@@ -7,7 +7,12 @@
 }
 
 @media(max-width: 768px){
-    
+    .main{
+        grid-template-columns: 1fr;
+    }
+    .box{
+        margin: 40px 0;
+    }
 }
 
 @media(max-width: 480px){
